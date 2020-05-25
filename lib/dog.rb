@@ -1,11 +1,12 @@
 # Add your code here
 class Dog
 
-attr_accessor (:name
+attr_accessor :save, :name
 
 @@all = []
 
-def initialize(name)
+def initialize(save,name)
+  @save = save
   @name = name
    @@all << self
   # @@dog_name
