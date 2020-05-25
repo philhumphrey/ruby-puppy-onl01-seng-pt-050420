@@ -9,8 +9,6 @@ def initialize(save,name)
   @save = save
   @name = name
    @@all << self
-  # @@dog_name
-  # end
   end
   
   def self.all
