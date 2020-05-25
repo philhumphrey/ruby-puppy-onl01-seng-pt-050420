@@ -5,7 +5,7 @@ attr_accessor :save, :name
 
 @@all = []
 
-def initialize(save,name)
+def initialize(save, name)
   @save = save
   @name = name
   end
