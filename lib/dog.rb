@@ -25,6 +25,9 @@ def initialize(name)
      puts name.name
     end
   end
+  
+  def save
+    @@all <<
 end
 
 
