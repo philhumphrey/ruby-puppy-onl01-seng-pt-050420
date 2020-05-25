@@ -14,7 +14,7 @@ def initialize(name)
   end
     
   def self.clear_all
-    @@all = []
+    @@all
   end
   
   def self.print_all(name)
